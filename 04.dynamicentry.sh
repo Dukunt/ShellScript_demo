@@ -3,5 +3,5 @@
  read $FNUM
  echo "Enter the second number"
  read $SNUM
- $TOTAL=$(($FNUM+$SNUM))
+ TOTAL=$(($FNUM+$SNUM))
  echo " Sum of the two numbers is $TOTAL"

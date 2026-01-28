@@ -4,7 +4,7 @@ echo "$TIMESTAMP"
 
 FT=$(date +%s)
 echo "Starting time is $FT"
-sleep 20 &
+sleep 5
 
 ST=$(date +%s)
 echo "Ending time is $ST"

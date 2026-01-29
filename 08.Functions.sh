@@ -6,7 +6,7 @@ if [ $USERID != 0 ] ; then
 fi 
 
 STATUS() {
-    if [$1 !=0 ] ; then
+    if [ $1 !=0 ] ; then
     echo " $2.... FAILURE"
     else
     echo "$2.... SUCCESS"

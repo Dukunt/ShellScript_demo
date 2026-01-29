@@ -13,6 +13,9 @@ STATUS(){
     fi
 }
 
+echo "installing Nginx"
+dnf install Nginx -y
+
 STATUS $? "Nginx installation"
 
 

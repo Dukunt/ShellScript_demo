@@ -12,3 +12,4 @@ if  [$? = 0 ]; then
  echo "Nginx installation was successful"
  else
  echo "Installation failed"
+fi

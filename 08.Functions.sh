@@ -3,5 +3,7 @@ echo "Enter first the number"
 read x
 echo "Enter the second number"
 read y
-VALUE=$(($x+$y))
-echo "sum of the two numbers is $VALUE "
+TOTAL(){
+    VALUE=$(($x+$y))
+    echo "sum of the two numbers is $VALUE "
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
- USER=$(id -u)
- if [$USER != 0] ; then
+ ID=$(id -u)
+ if [$ID != 0] ; then
   echo " please use root user for any installation"
   exit 1
   else

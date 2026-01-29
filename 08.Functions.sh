@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Enter the number below 100"
+echo "Enter first the number"
 read x
 echo "Enter the second number"
 read y
-VALUE=$(($x+$y))
+VALUE=$((x+y))
 echo "sum of the two numbers is $VALUE "

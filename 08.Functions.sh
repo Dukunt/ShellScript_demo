@@ -7,3 +7,4 @@ TOTAL(){
     VALUE=$(($x+$y))
     echo "sum of the two numbers is $VALUE "
 }
+TOTAL

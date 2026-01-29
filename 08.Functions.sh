@@ -5,11 +5,12 @@ if [ $USERID != 0 ] ; then
  exit 1
 fi 
 
-STATUS() {
+STATUS(){
     if [ $1 !=0 ] ; then
     echo " $2.... FAILURE"
     else
     echo "$2.... SUCCESS"
+    fi
 }
 
 STATUS $? "Nginx installation"

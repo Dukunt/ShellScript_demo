@@ -1,7 +1,7 @@
 #! /bin/bash
  DAY=$1
- if [ $DAY == Sunday ]; then
-  echo " Today is holiday"
+ if [ ${DAY,,} != sunday ]; then
+  echo " Please go to work"
   else
-   echo " Please go to work"
+   echo " Holiday.. Happy Sunday"
 fi   

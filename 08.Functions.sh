@@ -12,6 +12,6 @@ STATUS() {
     echo "$2.... SUCCESS"
 }
 
-STATUS $? Nginx installation
+STATUS $? "Nginx installation"
 
 

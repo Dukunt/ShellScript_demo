@@ -1,11 +1,11 @@
 #!/bin/bash
 echo " Enter the number below 100"
-read $x
+read x
 echo "Enter the second number"
-read $y
+read y
 
  TOTAL() {
-    VALUE=$(($x + $y))
+    VALUE=$(($x+$y))
     echo "sum of the two numbers is $VALUE "
  }
 
